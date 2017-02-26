@@ -1,0 +1,106 @@
+/* Layout */
+
+body {
+	background-color: #f0810f;
+}
+
+p a {
+	color: #011a27;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+button {
+	height: 400px;
+	border: none;
+	padding: 25px;
+	background-color: transparent;
+}
+
+button img {
+	width: 75%;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover img{
+	width: 100%;
+	transition: all 0.3s ease 0s;
+}
+
+button input {
+	display: none;
+}
+
+
+footer {
+	color: #011a27;
+	font-size: 12px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+/* Navbar */
+
+.navbar-fixed-top {
+	height: 50px;
+	background-color: transparent;
+}
+
+ul.nav.navbar-nav.navbar-right li a{
+	color: #063952;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover{
+	color: white;
+	background-color: transparent;
+}
+
+/* Navbar-brand */
+
+.navbar-brand {
+	color: #063952;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+a:hover.navbar-brand {
+	color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	height: 400px;
+	margin: 100px;
+	background-color: transparent;
+	text-align: center;
+}
+
+/* Form */
+
+.form-group label {
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.form-control {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
